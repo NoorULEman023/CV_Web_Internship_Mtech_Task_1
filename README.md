@@ -200,7 +200,7 @@ It can easily be integrated using:
 Add your screenshot here:
 
 ```
-screenshots/desktop-view.png
+Homepage_image1.png
 ```
 
 ## Mobile View
