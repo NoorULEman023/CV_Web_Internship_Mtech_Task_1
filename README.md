@@ -201,7 +201,7 @@ It can easily be integrated using:
 
 <h3>Mobile View</h3>
 
-<img src="homepage_image2.png" width="300" alt="Mobile View">
+<img src="mobile_view.png" width="300" alt="Mobile View">
 ---
 
 # 🌟 Future Improvements
