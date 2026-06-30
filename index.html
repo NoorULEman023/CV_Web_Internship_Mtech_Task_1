@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noor UL Eman | Software Engineering Student</title>
+
+  <!-- ====== Google Fonts ======
+       "Space Grotesk" = headings (techy, geometric feel for a dev portfolio)
+       "Inter" = body text (clean, very readable)
+       Change these links + the font-family values in style.css if you want a different look. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__brand">
+        <!-- The little dot is a quick brand mark. Change the color in style.css (--accent-1) -->
+        <span class="navbar__dot"></span>
+        Noor UL Eman
+        <span class="navbar__role">Software Engineer</span>
+      </a>
+
+      <!-- Hamburger button, only visible on mobile. Toggled by script.js -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO / HOME ===================== -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+
+      <!-- Profile picture circle. Replace the <img src="..."> below with your own
+           photo whenever you want — just keep the file in the same folder
+           and update the path. Recommended size: at least 500x500px, square. -->
+      <div class="hero__photo">
+        <img src="avatar2.png" alt="Portrait of Noor UL Eman" />
+      </div>
+
+      <div class="hero__text">
+      
+        <h1>Hi, I'm Noor.</h1>
+        <h2 class="hero__subhead">Building tomorrow's solutions, today.</h2>
+
+        <div class="hero__about">
+          <h3>A bit about me</h3>
+          <!-- EDIT ME: this is your intro paragraph, pulled from your LinkedIn summary.
+               Feel free to rewrite this anytime — just edit the text below. -->
+          <p>
+            I'm a Software Engineering student passionate about coding and web
+            development. Skilled in HTML, CSS, JavaScript, PHP, MySQL, and C++,
+            I enjoy building practical projects and continuously learning new
+            technologies to grow in the tech field.
+          </p>
+        </div>
+
+        <!-- Quick-link pill buttons, same idea as the sample design -->
+        <div class="hero__pills">
+          <a href="#resume" class="pill pill--accent1">Resume</a>
+          <a href="#projects" class="pill pill--accent2">Projects</a>
+          <a href="#contact" class="pill pill--accent3">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESUME ===================== -->
+  <section class="section" id="resume">
+    <div class="section__inner">
+      <h2 class="section__title">Resume</h2>
+
+      <!-- ---------- WORK EXPERIENCE ---------- -->
+      <div class="resume-block">
+        <div class="resume-block__label">
+          <h3>Work<br />Experience</h3>
+        </div>
+
+        <div class="resume-block__items">
+
+          <!-- EDIT ME: Each .resume-item below is one job. Copy/paste the whole
+               <div class="resume-item">...</div> block to add more entries,
+               or delete one to remove it. -->
+          <div class="resume-item">
+            <span class="resume-item__date">June 2026 – Present</span>
+            <div class="resume-item__content">
+              <h4>Full Stack Web Developer</h4>
+              <p class="resume-item__org">M Tech Production &amp; Marketing</p>
+              <p>Click here to add a short description of what you do/did in this role.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Jul 2025 – Aug 2025</span>
+            <div class="resume-item__content">
+              <h4>Summer Internship</h4>
+              <p class="resume-item__org">Technik Nest Pvt Ltd</p>
+              <p>Click here to add a short description of what you did during this internship.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Jan 2025</span>
+            <div class="resume-item__content">
+              <h4>Web Developer</h4>
+              <p class="resume-item__org">Ride Karo</p>
+              <p>Click here to add a short description of what you built or worked on.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Jun 2024</span>
+            <div class="resume-item__content">
+              <h4>Summer Internship</h4>
+              <p class="resume-item__org">NRTC, Haripur</p>
+              <p>Click here to add a short description of this internship.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Jul 2023 – Dec 2023</span>
+            <div class="resume-item__content">
+              <h4>NAVTACC Training Course</h4>
+              <p class="resume-item__org">NAVTACC</p>
+              <p>Click here to add a short description of this training course.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- ---------- EDUCATION ---------- -->
+      <div class="resume-block">
+        <div class="resume-block__label">
+          <h3>Education</h3>
+        </div>
+
+        <div class="resume-block__items">
+
+          <div class="resume-item">
+            <span class="resume-item__date">Oct 2023 – Oct 2027</span>
+            <div class="resume-item__content">
+              <h4>Software Engineering</h4>
+              <p class="resume-item__org">Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology</p>
+              <p>Computer Systems Networking and Telecommunications.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Oct 2021 – Jul 2023</span>
+            <div class="resume-item__content">
+              <h4>Intermediate (ICS)</h4>
+              <p class="resume-item__org">Allied College Haripur</p>
+              <p>Mathematics and Computer Science.</p>
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <span class="resume-item__date">Mar 2019 – Mar 2021</span>
+            <div class="resume-item__content">
+              <h4>Matriculation</h4>
+              <p class="resume-item__org">SOUL School Haripur</p>
+              <p>Science group.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- ---------- SKILLS ---------- -->
+      <div class="resume-block">
+        <div class="resume-block__label">
+          <h3>Skills &amp;<br />Expertise</h3>
+        </div>
+
+        <div class="resume-block__items">
+          <!-- EDIT ME: Add/remove <li> items to update your skill list -->
+          <ul class="skills-list">
+            <li><strong>Graphic Designing</strong> – UI/UX, branding, visual content</li>
+<li><strong>Front-End Development</strong> – HTML, Tailwind CSS, JavaScript, Bootstrap</li>
+<li><strong>Backend Integration</strong> – PHP, MySQL, MongoDB, Node.js, Spring Boot (Java)</li>
+<li><strong>Tools & Platforms</strong> – Postman, IntelliJ IDEA, WAMP, VS Code, Git/GitHub, Docker, Figma, Ubuntu</li>
+<li><strong>Programming</strong> – C++ (OOP, DSA), Python</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section section--alt" id="projects">
+    <div class="section__inner">
+      <h2 class="section__title">Projects</h2>
+
+      <!-- EDIT ME: Each .project is one project card. Copy/paste the whole
+           <article class="project">...</article> block to add more projects.
+           Replace the placeholder image src with your own screenshot, and
+           swap "project--reverse" on/off to alternate the image side. -->
+
+      <article class="project">
+        <div class="project__text">
+          <h3>Project Name 01</h3>
+          <h4>Coffee Shop Landing Page</h4><br>
+          <h5>Built with HTML5, CSS3, and Vanilla JavaScript</h5>
+          <p>
+            A fully responsive coffee shop landing page built with HTML, CSS, and Vanilla JavaScript. Features include an animated hero section, categorized menu, testimonial slider, photo gallery, and a validated contact form. Developed without frameworks to demonstrate proficiency in CSS Flexbox/Grid, custom JavaScript for interactivity, and CSS animations. This project highlights my ability to translate design concepts into functional, responsive web experiences while strengthening core frontend fundamentals.
+          </p>
+        </div>
+        <div class="project__image">
+          <!-- Placeholder image -- replace with a real screenshot, e.g. assets/project1.png -->
+          <img src="coffee_homepage.png" alt="Project Name 01 screenshot" />
+        </div>
+      </article>
+
+     <p>  <center> More projects will be added soon</center></p>
+       
+
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="section__inner">
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact-sub">Looking forward to hearing from you.</p>
+
+          <div class="contact-detail">
+            <h4>Email</h4>
+            <!-- Your email — change this anytime -->
+            <p><a href="mailto:nooruleman023@gmail.com">nooruleman023@gmail.com</a></p>
+          </div>
+
+          <div class="contact-detail">
+            <h4>Location</h4>
+            <p>Haripur District, Khyber Pakhtunkhwa, Pakistan</p>
+          </div>
+
+          <div class="contact-detail">
+            <h4>Connect</h4>
+<a href="https://www.linkedin.com/in/noor-ul-eman-b0904b347/" target="_blank" rel="noopener" class="connect-btn">
+  <i class="fab fa-linkedin"></i> Let's Connect on LinkedIn
+</a>
+</div>
+        </div>
+
+        <!-- Contact form. script.js handles validation + a fake "submit" since
+             there's no backend yet. Hook this up to a real service (e.g.
+             Formspree, EmailJS, or your own PHP/MySQL backend) when ready —
+             see the comment block at the top of script.js for notes. -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" required />
+              <span class="form-error" data-error-for="firstName"></span>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" required />
+              <span class="form-error" data-error-for="lastName"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required />
+              <span class="form-error" data-error-for="email"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="pill pill--accent1 form-submit">Submit</button>
+
+          <!-- Success/error message shown by script.js after "submitting" -->
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <h4>Phone</h4>
+        <!-- EDIT ME: add your phone number here -->
+        <p>0332-XXXXXXX</p>
+      </div>
+      <div>
+        <h4>Email</h4>
+        <p><a href="mailto:nooruleman023@gmail.com">nooruleman023@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Follow Me</h4>
+       <div class="footer__social">
+  <a href="https://www.linkedin.com/in/noor-ul-eman-b0904b347/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <span class="social-icon">in</span>
+    <span class="social-label">LinkedIn</span>
+  </a>
+</div>
+      </div>
+      <div class="footer__copy">
+        <p>&copy; <span id="year"></span> Noor UL Eman.</p>
+        <p>Built with HTML, CSS &amp; JS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button, shown after scrolling. Handled in script.js -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
