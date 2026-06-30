@@ -195,22 +195,13 @@ It can easily be integrated using:
 
 # 📸 Screenshots
 
-## Desktop View
+<h3>Desktop View</h3>
 
-Add your screenshot here:
+<img src="Homepage_image1.png" width="900" alt="Desktop View">
 
-```
-Homepage_image1.png
-```
+<h3>Mobile View</h3>
 
-## Mobile View
-
-Add your screenshot here:
-
-```
-screenshots/mobile-view.png
-```
-
+<img src="homepage_image2.png" width="300" alt="Mobile View">
 ---
 
 # 🌟 Future Improvements
